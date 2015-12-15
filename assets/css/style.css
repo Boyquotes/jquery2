@@ -1,0 +1,66 @@
+body{
+	background: #BBB;
+}
+.clear{
+	clear: both;
+}
+#loginForm{
+	width: 20%;
+	margin: 0 auto;
+	background: #666;
+	color: #FFF;
+	padding: 4%;
+	border-radius: 5%;
+}
+label{
+	display: block;
+	float: left;
+	width: 45%;
+}
+label[for=login]{
+	text-align: left;
+}
+label[for=motdepasse]{
+	text-align: left;
+}
+label[for=email]{
+	float:left;
+	width: 100%;
+	text-align: left;
+}
+input{
+	float: left;
+	width: 50%;
+}
+input.email{
+	width: 100%;
+}
+input[type=button]{
+	float: right;
+	margin: 10% 0 0 0;
+	clear: both;
+	width: 100%;
+}
+.lienOublieMotdepasse{
+        float: right;
+        font-size: 10px;
+        text-align: right;
+        width: 100%;
+	margin: 10px 0 0 0;
+}
+.overlay{
+	z-index: 1000;
+	background: #BBB;
+}
+.message{
+	display: none;
+	float: right;
+	color: white;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+	background: #DDD;
+}
+a:link{
+	color: #FFF;
+}
